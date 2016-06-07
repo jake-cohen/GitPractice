@@ -9,7 +9,7 @@ Navigate to the folder and type `git init` to initialize.
 
 Then, go to GitHub and create a new repo with the same name as your local repo. From that repo in terminal, type `git remote add origin [URL of your remote repo]`
 
-**Add** = makes git aware that you have a new file
+**Add** = makes git aware that you have a new file  
 **Commit** = log the version of the file you've been working on.  
 This happens on the local computer
 

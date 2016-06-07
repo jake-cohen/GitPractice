@@ -9,9 +9,13 @@ Commit = log the version of the file you've been working on
 This happens on the local computer
 
 git add [file] = adds the file to the local repo
-but then just git commit (w/ no file name)
-OR git commit -m "[changes]"
+but then just git commit (w/ no file name) = will pull up a new editor window to log changes.
+OR git commit -m "[changes]" = this is the easier way to do it.
 
 Push = sending the local changes up to GitHub
+git push -u origin master
 
-Once a file has been added, any time there are changes made, all you need to do is save and then commit to log changes. File is already being "tracked" (no need to add it again)
+Once a file has been added, future changes can be made with:
+git commit -am "[changes]"
+
+-a "flags" the file (the equivalent of adding) so that you don't have to add separately
